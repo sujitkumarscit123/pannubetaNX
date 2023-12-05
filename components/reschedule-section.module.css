@@ -1,0 +1,91 @@
+.preferredAppointment {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.friday1323 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+}
+.preferredAppointmentParent {
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.rescheduleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-sf-pro-text);
+  color: var(--primary-color-bnei-brak-bay-0);
+  text-align: left;
+  display: inline-block;
+}
+.frameGroup {
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.startTime1230 {
+  position: relative;
+  font-weight: 600;
+}
+.cancelAppointmentButton {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-sf-pro-text);
+  color: var(--primary-color-bnei-brak-bay-0);
+  text-align: left;
+}
+.cancelButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 45px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cancelButton,
+.frameParent,
+.startTime1230PmParent {
+  display: flex;
+  justify-content: space-between;
+}
+.startTime1230PmParent {
+  height: 63px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--font-size-xs);
+}
+.frameParent {
+  position: absolute;
+  width: 92.53%;
+  top: 163px;
+  right: 3.73%;
+  left: 3.73%;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--color-lightskyblue);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-5xs) var(--padding-xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-mediumslateblue-100);
+  font-family: var(--font-sf-pro-text);
+}

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Text:ital,wght@0,500;0,600;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-sf-pro-text: "SF Pro Text";
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-3xs: 10px;
+  --font-size-4xs: 9px;
+  --font-size-2xs: 11px;
+  --font-size-3xl: 22px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumslateblue-100: #0065fb;
+  --primary-color-bnei-brak-bay-0: #173fd4;
+  --color-black: #000;
+  --color-silver: #bbbbbe;
+  --color-lightgray: #c9d3e0;
+  --color-lightskyblue: #97bff6;
+  --color-lightgreen: #8ed16f;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+  --gap-9xl: 28px;
+
+  /* Paddings */
+  --padding-8xs: 5px;
+  --padding-5xs: 8px;
+  --padding-6xs: 7px;
+  --padding-2xs: 11px;
+  --padding-xs: 12px;
+  --padding-4xs: 9px;
+
+  /* Border radiuses */
+  --br-smi: 13px;
+  --br-5xs: 8px;
+}

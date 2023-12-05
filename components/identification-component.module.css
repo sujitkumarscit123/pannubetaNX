@@ -1,0 +1,11 @@
+.frameChild {
+  position: absolute;
+  width: 101.17%;
+  top: -2px;
+  right: -0.58%;
+  left: -0.58%;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--color-lightgreen);
+  box-sizing: border-box;
+  height: 167px;
+}

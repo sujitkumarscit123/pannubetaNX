@@ -1,0 +1,35 @@
+.darleneRobertson {
+  position: relative;
+  font-weight: 600;
+}
+.darleneRobertsonParent {
+  width: 226px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.dogwoodAveUndefined,
+.facilityName {
+  position: relative;
+  font-weight: 500;
+}
+.dogwoodAveUndefined {
+  display: inline-block;
+  width: 195px;
+}
+.frameParent {
+  position: absolute;
+  top: 275px;
+  left: 131px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-sf-pro-text);
+}
