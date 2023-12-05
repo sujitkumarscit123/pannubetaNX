@@ -1,0 +1,8 @@
+.illustrationIcon {
+  position: absolute;
+  top: 84px;
+  left: calc(50% - 87.5px);
+  width: 175.7px;
+  height: 140px;
+  overflow: hidden;
+}

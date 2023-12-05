@@ -1,0 +1,29 @@
+.addMoreInsurances,
+.doneButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-sf-pro-text);
+  color: var(--primary-color-bnei-brak-bay-0);
+  text-align: left;
+  display: inline-block;
+}
+.doneButton {
+  font-size: var(--font-size-3xl);
+}
+.addMoreAndDoneButton {
+  position: absolute;
+  width: 91.47%;
+  top: 866px;
+  right: 4.27%;
+  left: 4.27%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
